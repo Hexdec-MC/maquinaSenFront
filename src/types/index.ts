@@ -1,5 +1,5 @@
 export interface User {
-  id?: number;
+  id?: string;
   username: string;
   role: string;
 }
@@ -17,7 +17,7 @@ export interface Machine {
 }
 
 export interface Supply {
-  id: number;
+  id: string;
   name: string;
   stock: number;
   unit: string;
